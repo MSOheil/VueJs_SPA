@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="container">
-      <h4><b>{{ user.name }}</b></h4>
+      <h4><b><router-link :to="{name:`userId`,params:{id:user.id}}">{{ user.name }}</router-link></b></h4>
       <p>{{user.username}}</p>
       <p>{{user.phone}}</p>
     </div>

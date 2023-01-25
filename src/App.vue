@@ -1,5 +1,6 @@
 <template>
   <Header />
+<router-link :to="{name:`users`}">ShowUser</router-link>
   <router-view></router-view>
 </template>
 
